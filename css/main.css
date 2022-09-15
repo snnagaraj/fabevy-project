@@ -7,7 +7,7 @@
     width: 1349px;
 }
 .header-flex{
-    background-color: rgb(27, 34, 102);
+    background-color: #37517e;
     height: 600px;
 }
 .head{
@@ -20,6 +20,8 @@
 .logo h1{
     color: aliceblue;
     font-size: 30px;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 3px;
     /* padding-top: 30px; */
 }
 .navbar{
@@ -32,6 +34,7 @@
     color: azure;
     padding-right: 20px;
 	padding-top:5px;
+    font-family: "Open Sans", sans-serif;
 }
 .navbar button{
     width: 90px;
@@ -62,6 +65,7 @@
     color: azure;
     padding-top: 20px;
     padding-left: 100px;
+    font-family: "Jost", sans-serif;
 }
 .banner-image{
     width: 45%;
@@ -241,3 +245,363 @@
     padding-top: 20px;
     padding-left: 100px;
 }
+
+
+
+
+/*services*/
+
+.services{
+	background-color:#ADC9F7;
+	height:500px;
+}
+.service-head h2{
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px;
+}
+.service-head p{
+	font-size:20px;
+	text-align:center;
+	padding-top:20px;
+}
+.service-flex{
+	display:flex;
+	margin-top:30px;
+}
+.service-box{
+	width:20%;
+	height:200px;
+	box-shadow:0 0 5px black;
+	margin-left:50px;
+	background:white;
+}
+.service-box li{
+	list-style-type:none;
+	margin-top:30px;
+	margin-left:20px;
+}
+.service-box li i{
+	font-size:40px;
+	color:#09CCEA;
+}
+.service-box h3{
+	font-size:20px;
+	color:#3A4768;
+	padding-top:20px;
+	padding-left:20px;
+}
+.service-box p{
+	padding:20px;
+	
+}
+
+
+
+
+/*portfolio*/
+
+.portfolio{
+   margin-top:50px;	
+}	
+.portfolio-content h2{
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+}
+.portfolio-content p{
+	font-size:18px;
+	text-align:center;
+	padding-top:30px:
+}
+.portfolio-button{
+	text-align:center;
+	margin-top:20px;
+}
+.portfolio-button button{
+	width:30px;
+	height:30px;
+	border: none;
+}
+.portfolio-flex{
+	display:flex;
+	margin-left:140px;
+	margin-top:30px;
+}
+.part1{
+	width:30%;
+}
+.img1 img{
+	width:330px;
+	height:300px;
+}
+.img2 img{
+	width:330px;
+	height:450px;
+	margin-top:15px;
+}
+.part2{
+	width:30%;
+}
+.img3 img{
+	width:330px;
+	height:250px;
+}
+.img4 img{
+	width:330px;
+	height:400px;
+	margin-top:15px;
+}
+.img5 img{
+	width:330px;
+	height:250px;
+	margin-top:15px;
+}
+.part3{
+	width:30%;
+}
+.img6 img{
+	width:330px;
+	height:200px;
+}
+.img7 img{
+	width:330px;
+	height:200px;
+	margin-top:15px;
+}
+.img8 img{
+	width:330px;
+	height:200px;
+	margin-top:15px;
+}
+.img9 img{
+	width:330px;
+	height:200px;
+	margin-top:15px;
+}
+
+
+
+/* teams */
+
+
+.teams{
+    height: 750px;
+    background-color: #f3f5fa;
+}
+.team-head{
+    margin-top: 30px;
+}
+.team-head h2{
+    font-size: 20px;
+    color: #3A4768;
+    text-align: center;
+    padding-top: 30px;
+}
+.team-head p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.team1{
+    display: flex;
+}
+.team2{
+    display: flex;
+}
+.team-box{
+    width: 45%;
+    height: 250px;
+    display: flex;
+    box-shadow: 0 0 5px blueviolet;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.team-image{
+    width: 40%;
+}
+.team-content{
+    width: 50%;
+    padding-top: 30px;
+}
+.team-image img{
+    width: 170px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.team-content h1{
+    font-size: 25px;
+    color: #3A4768;
+    padding-top: 10px;
+}
+.team-content h2{
+    font-size: 17px;
+    padding-top: 10px;
+}
+.team-content p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.team-icon{
+    display: flex;
+    margin-top: 20px;
+}
+.team-icon li{
+     list-style-type: none;
+     box-shadow: 0 0 0px black;
+     width: 40px;
+     height: 40px;
+     margin-right: 10px;
+     border-radius: 50%;
+     background-color: #ADC9F7;
+}
+.team-icon li i{
+    font-size: 20px;
+    position: absolute;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* pricing */
+
+
+.pricing-flex{
+	display:flex;
+    margin-top: 20px;
+}
+.price-head h1{
+	font-size:30px;
+	font-weight:bold;
+	color:#06446D;
+	text-align:center;
+    padding-top: 30px;
+}
+.pricehr{
+	width:60px;
+    height: 2px;
+    background: #06446D;
+    margin-left: 640px;
+    margin-top: 10px;
+}
+.price-head p{
+	font-size:17px;
+	text-align:center;
+	margin-bottom:60px;
+	margin-top:20px;
+}
+.price-box{
+	box-sizing:border-box;
+	box-shadow:0 0 6px #E3EDF4;
+	border:none;
+	border-radius:5px;
+	height:400px;
+	width:300px;
+	margin-left:90px;
+}
+.price-box1{
+	box-sizing:border-box;
+	box-shadow:inset 0px 5px 1px 0px #0880cc;
+	border-radius:5px;
+	height:400px;
+	width:300px;
+	margin-left:90px;
+}
+.price-box h2{
+	padding-left:40px;
+	font-size:20px;
+	color:#0B3589;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.price-box1 h2{
+	padding-left:40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+	font-size:20px;
+	color:#0B3589;
+}
+.price-box sup{
+	padding-left:40px;
+	font-size:25px;
+	margin-top:50px;
+	color:#0B3589;
+}
+.price-box1 sup{
+	padding-left:40px;
+	font-size:25px;
+	margin-top:50px;
+	color:#0B3589;
+}
+.price-box p{
+	font-size:35px;
+	margin-top:-30px;
+	padding-left:55px;
+	color:#0B3589;
+}
+.price-box1 p{
+	font-size:35px;
+	margin-top:-30px;
+	padding-left:55px;
+	color:#0B3589;
+}
+.price-box span{
+	padding-top:-100px;
+	padding-left:40px;
+	color:#18F7CA;
+}
+.price-box1 span{
+	padding-top:-100px;
+	padding-left:40px;
+	color:#18F7CA;
+}
+.price-box ul{
+    padding-top: 15px;
+}
+.price-box1 ul{
+    padding-top: 15px;
+}
+.price-box ul li{
+	list-style-type:none;
+	padding-bottom:15px;
+    padding-left: 40px;
+}
+.price-box1 ul li{
+	list-style-type:none;
+	padding-bottom:15px;
+    padding-left: 40px;
+}
+.price-box icofont-close{
+	color:#515354;
+}
+.price-box li i{
+	color:#18F22E;
+	padding-right:10px;
+}
+.price-box1 li i{
+	color:#18F22E;
+	padding-right:10px;
+}
+.price-box button{
+	margin-left:40px;
+	border-color:#098CF7;
+	color:#098CF7;
+	background-color:white;
+	border-radius:15px;
+	width:130px;
+	height:40px;
+}
+.price-box1 button{
+	margin-left:40px;
+	border-color:#098CF7;
+	color:white;
+	background-color:#098CF7;
+	border-radius:15px;
+	width:130px;
+	height:40px;
+}
+
