@@ -55,6 +55,7 @@
 .content h2{
     font-size: 40px;
     color: aliceblue;
+	font-family: "Jost", sans-serif;
     font-weight: bold;
     padding-left: 100px;
     padding-top: 100px;
@@ -62,7 +63,7 @@
 }
 .content p{
     font-size: 20px;
-    color: azure;
+    color: rgba(255, 255, 255, 0.6);
     padding-top: 20px;
     padding-left: 100px;
     font-family: "Jost", sans-serif;
@@ -104,7 +105,7 @@
 
 /* info section */
 .info{
-    background-color: rgba(194, 181, 165, 0.986);
+    background-color: #f3f5fa;
     height: 100px;
 }
 .info-flex{
@@ -131,7 +132,8 @@
     font-weight: bold;
     text-align: center;
     margin-top: 70px;
-    color: #06446D;
+    color: #37517e;
+	font-family: "Jost", sans-serif;
 }
 .abouthr{
     width: 70px;
@@ -154,11 +156,15 @@
     font-size: 17px;
     padding-left: 40px;
     padding-bottom: 20px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 .about-content1 li{
     list-style-type: none;
     padding-bottom: 10px;
     padding-left: 40px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 .about-content1 li i{
     padding-right: 10px;
@@ -172,6 +178,8 @@
     font-size: 17px;
     padding-bottom: 20px;
     padding-left: 40px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 .about-content2 button{
 	width:140px;
@@ -197,15 +205,19 @@
 	padding-left:90px;
 }
 .top h2{
-	font-size:20px;
+	font-size:27px;
 	padding-top:90px;
+	color: #37517e;
+	font-family: "Jost", sans-serif;
 }
 .top h2 b{
-    font-size:25px;	
+    font-size:35px;	
 }	
 .top p{
     font-size:15px;
 	padding-top:20px;
+	color: #848484;
+	font-family: "Open Sans", sans-serif
 }	
 .detail-image{
     width: 40%;
@@ -242,13 +254,18 @@
     width: 45%;
 }
 .summary-content h2{
-    font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
     padding-top: 40px;
     padding-left: 100px;
 }
 .summary-content p{
     font-size: 20px;
+	font-style: italic!important;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
     padding-top: 20px;
     padding-left: 100px;
 }
@@ -267,9 +284,13 @@
 	font-weight:bold;
 	text-align:center;
 	padding-top:30px;
+	font-family: "Jost", sans-serif;
+	color: #37517e;
 }
 .service-head p{
 	font-size:20px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
 	text-align:center;
 	padding-top:30px;
 }
@@ -298,10 +319,12 @@
 	color:#3A4768;
 	padding-top:20px;
 	padding-left:20px;
+	font-family: "Jost", sans-serif;
 }
 .service-box p{
 	padding:20px;
-	
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 
@@ -336,12 +359,14 @@
     color: #E3EDF4;
     padding-top: 150px;
     padding-left: 80px;
+	font-family: "Jost", sans-serif;
 }
 .action-content p{
     font-size: 15px;
     color: #f3f5fa;
     padding-top: 10px;
     padding-left: 80px;
+	font-family: "Open Sans", sans-serif;
 }
 .action-button{
     width: 20%;
@@ -369,11 +394,15 @@
 	font-size:30px;
 	font-weight:bold;
 	text-align:center;
+	font-family: "Jost", sans-serif;
+	color: #37517e;
 }
 .portfolio-content p{
 	font-size:18px;
 	text-align:center;
 	padding-top:30px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 .portfolio-button{
 	text-align:center;
@@ -447,7 +476,7 @@
 
 
 .teams{
-    height: 750px;
+    height: 650px;
     background-color: #f3f5fa;
 }
 .team-head{
@@ -455,14 +484,20 @@
 }
 .team-head h2{
     font-size: 20px;
-    color: #3A4768;
+    color: #37517e;
     text-align: center;
+	font-family: "Jost", sans-serif;
     padding-top: 30px;
 }
 .team-head p{
     font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
     text-align: center;
     padding-top: 20px;
+}
+.team-flex{
+	margin-left:90px;
 }
 .team1{
     display: flex;
@@ -471,30 +506,33 @@
     display: flex;
 }
 .team-box{
-    width: 45%;
-    height: 250px;
+    width: 41%;
+    height: 193px;
     display: flex;
-    box-shadow: 0 0 5px blueviolet;
-    margin-left: 40px;
-    margin-top: 40px;
+	background:white;
+    box-shadow: 0 0 5px #cac5cf;
+    margin-left: 20px;
+    margin-top: 20px;
 }
+
 .team-image{
     width: 40%;
 }
 .team-content{
     width: 50%;
-    padding-top: 30px;
+	margin-left: 36px;
 }
 .team-image img{
     width: 170px;
     border-radius: 50%;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 12px;
+    margin-left: 23px;
 }
 .team-content h1{
     font-size: 25px;
     color: #3A4768;
     padding-top: 10px;
+	font-family: "Jost", sans-serif;
 }
 .team-content h2{
     font-size: 17px;
@@ -693,8 +731,222 @@
     margin-left: 250px;
 }
 .question-box{
-    box-shadow: 0 0 2px blueviolet;
+    /* box-shadow: 0 0 2px blueviolet; */
     width: 800px;
     height: 50px;
     margin-bottom: 30px;
+}
+.question-box details{
+    box-shadow: 0,0,3px;
+}
+.question-box summary{
+    list-style-type: none;
+    padding: 15px;
+	background: white;
+}
+.question-box summary i{
+    margin-right: 10px;
+}
+.question-box span i{
+    display: inline-block;
+    text-align: right;
+}
+
+
+
+
+
+/* contact */
+
+
+.contact{
+    height: 600px;
+}
+.contact-flex{
+    display: flex;
+}
+.contact-left{
+    width: 40%;
+}
+.contact-right{
+    width: 50%;
+}
+.forms-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.col-6 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-12 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.form-group .form-input {
+    width: 100%;
+    height: 45  px;
+    padding: 10px;
+    border: solid 1px #ccc;
+}
+.form-group .form-input:focus {
+    outline: 0;
+}
+.form-button{
+    margin: auto;
+
+}
+.form-button .mani{
+    font-size: 15px;
+    width: 150%;
+    height: 35px;
+    background: #428BCA;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+/* subscribe */
+
+.subscribe{
+    height: 300px;
+    background-color: #f3f5fa;
+}
+.sub-flex{
+    text-align: center;
+}
+.sub-flex h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.sub-flex p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.row input{
+    width: 280px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 1px;
+}
+.row button{
+    width: 90px;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0880cc;
+    color: white;
+    margin-left: -30px;
+}
+
+
+
+/* footer */
+
+
+.footer{
+    height: 350px;
+}
+.footer-flex{
+    display: flex;
+    padding-top: 35px;
+}
+.footer-box1{
+    width: 25%;
+}
+.footer-box1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #06446D;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.footer-box1 h2{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.footer-box1 p{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.footer-box2{
+    width: 25%;
+    padding-left: 30px;
+}
+.footer-box2 h2{
+    padding-top: 30px;
+    font-size: 23px;
+    color: #06446D;
+}
+.footer-box2 li{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.footer-box2 i{
+    padding-right: 6px;
+    color: #098CF7;
+}
+.footer-box3{
+    width: 25%;
+}
+.footer-box3{
+    width: 25%;
+}
+.footer-box3 h2{
+    padding-top: 30px;
+    font-size: 23px;
+    color: #06446D;
+}
+.footer-box3 li{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.footer-box3 i{
+    padding-right: 6px;
+    color: #098CF7;
+}
+.footer-box4{
+    width: 25%;
+    padding-right: 20px;
+}
+.footer-box4 h2{
+    font-size: 23px;
+    color: #06446D;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer-box4 p{
+    line-height: 20px;
+}
+.footer-icon{
+    display: flex;
+    margin-top: 25px;
+}
+.footer-icon li{
+    list-style-type: none;
+    box-shadow: 0 0 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #78a3c9;
+    color: white;
+}
+.footer-icon li i{
+    align-items: center;
 }
