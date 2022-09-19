@@ -256,7 +256,7 @@
     font-size:15px;
 	padding-top:20px;
 	color: #848484;
-	font-family: "Open Sans", sans-serif
+	font-family: "Open Sans", sans-serif;
 }	
 .detail-image{
     width: 40%;
@@ -269,6 +269,16 @@
 }
 .box-content{
 	display:flex;
+	height:30px;
+	box-shadow:0 0 3px;
+	background-color:white;
+}
+.box-content1{
+	display:flex;
+	height:30px;
+	margin-bottom:20px;
+	box-shadow:0 0 3px;
+	background-color:white;
 }
 
 
@@ -309,6 +319,25 @@
     padding-left: 100px;
 }
 
+.all-skill{
+	display:flex;
+}
+.skill-box1{
+	width:50%;
+}
+.skill-box span{
+    padding-left:100px;
+    padding-top:80px;
+	
+}
+.skill-box .skill-number{
+	margin-left:330px;
+}
+.skill-box progress{
+	width: 500px;
+	border-radius: 0;
+	color:blue;
+}
 
 
 
@@ -884,9 +913,20 @@
 .question-box summary i{
     margin-right: 10px;
 }
-.question-box span i{
-    display: inline-block;
-    text-align: right;
+.icon1{
+    margin-left: 415px;
+}
+.icon2{
+    margin-left: 431px;
+}
+.icon3{
+    margin-left: 448px;
+}
+.icon4{
+    margin-left: 270px;
+}
+.icon5{
+    margin-left: 156px;
 }
 
 
