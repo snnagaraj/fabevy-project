@@ -267,19 +267,100 @@
     margin-top: 50px;
     margin-left: 70px;
 }
-.box-content{
-	display:flex;
-	height:30px;
-	box-shadow:0 0 3px;
-	background-color:white;
+.good1{
+    box-shadow: 0 0 0px;
+    background-color: white;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.box-content1{
-	display:flex;
-	height:30px;
-	margin-bottom:20px;
-	box-shadow:0 0 3px;
-	background-color:white;
+.good1 summary{
+    padding: 12px;
+    font-size: 20px;
+    list-style-type: none;
+    color: #343a40;
+    font-family: "Poppins", sans-serif;
 }
+.good1 span{
+    padding-right: 10px;
+    font-weight: bold;
+    color: #47b2e4;
+}
+.good1 summary i{
+    margin-left: 110px;
+}
+.good1 p{
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.good2{
+    box-shadow: 0 0 0px;
+    background-color: white;
+    height: auto;
+    margin-bottom: 20px;
+}
+.good2 summary{
+    padding: 12px;
+    font-size: 20px;
+    list-style-type: none;
+    color: #343a40;
+    font-family: "Poppins", sans-serif;
+}
+.good2 span{
+    padding-right: 10px;
+    font-weight: bold;
+    color: #47b2e4;
+}
+.good2 summary i{
+    margin-left: 110px;
+}
+.good2 p{
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.good3{
+    box-shadow: 0 0 0px;
+    background-color: white;
+    height: auto;
+    margin-bottom: 20px;
+}
+.good3 summary{
+    padding: 12px;
+    font-size: 20px;
+    list-style-type: none;
+    color: #343a40;
+    font-family: "Poppins", sans-serif;
+}
+.good3 span{
+    padding-right: 10px;
+    font-weight: bold;
+    color: #47b2e4;
+}
+.good3 summary i{
+    margin-left: 110px;
+}
+.good3 p{
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.good1 summary:hover{
+    color: #0880cc;
+}
+.good2 summary:hover{
+    color: #0880cc;
+}
+.good3 summary:hover{
+    color: #0880cc;
+}
+
+
+
+
 
 
 
@@ -760,21 +841,22 @@
 	border:none;
 	border-radius:5px;
 	height:400px;
-	width:300px;
-	margin-left:50px;
+	width:350px;
+	margin-left:20px;
 }
 .price-box1{
 	box-sizing:border-box;
 	box-shadow:inset 0px 5px 1px 0px #0880cc;
 	border-radius:5px;
 	height:400px;
-	width:300px;
-	margin-left:50px;
+	width:350px;
+	margin-left:20px;
 }
 .price-box h2{
 	padding-left:40px;
 	font-size:20px;
-	color:#0B3589;
+	color:#37517e;
+    font-family: "Jost", sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -783,7 +865,8 @@
     padding-top: 30px;
     padding-bottom: 10px;
 	font-size:20px;
-	color:#0B3589;
+	color:#37517e;
+    font-family: "Jost", sans-serif;
 }
 .price-box sup{
 	padding-left:40px;
@@ -812,12 +895,12 @@
 .price-box span{
 	padding-top:-100px;
 	padding-left:40px;
-	color:#18F7CA;
+	color:#47b2e4;
 }
 .price-box1 span{
 	padding-top:-100px;
 	padding-left:40px;
-	color:#18F7CA;
+	color:#47b2e4;
 }
 .price-box ul{
     padding-top: 15px;
@@ -829,11 +912,15 @@
 	list-style-type:none;
 	padding-bottom:15px;
     padding-left: 40px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
 }
 .price-box1 ul li{
 	list-style-type:none;
 	padding-bottom:15px;
     padding-left: 40px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
 }
 .mani i{
 	color:#515354;
@@ -881,52 +968,82 @@
 .faq-head{
     margin-top: 20px;
 }
+.faqhr{
+    width: 100px;
+    height: 1px;
+    background: #4e4f52;
+    margin-left: 640px;
+    margin-top: 15px;
+}
+.faqhr1{
+    width: 30px;
+    height: 4px;
+    background: #098CF7;
+    margin-top: -2px;
+    margin-left: 670px;
+}
 .faq-head h2{
     font-size: 30px;
     font-weight: bold;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
     text-align: center;
     padding-top: 40px;
 }
 .faq-head p{
-    font-size: 20px;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
     text-align: center;
     padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 30px;
 }
 .question-flex{
     margin-left: 250px;
 }
 .question-box{
-    /* box-shadow: 0 0 2px blueviolet; */
+    box-shadow: 0 0 0px;
     width: 800px;
-    height: 50px;
+    background-color: white;
+    height: auto;
     margin-bottom: 30px;
 }
-.question-box details{
-    box-shadow: 0,0,3px;
-}
+
 .question-box summary{
     list-style-type: none;
+    font-size: 18px;
     padding: 15px;
 	background: white;
+    color: #47b2e4;
+    font-family: "Poppins", sans-serif;
+}
+.question-box summary:hover{
+    color: #0B3589;
 }
 .question-box summary i{
     margin-right: 10px;
 }
+.question-box p{
+    padding: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
 .icon1{
-    margin-left: 415px;
+    margin-left: 280px;
 }
 .icon2{
-    margin-left: 431px;
+    margin-left: 311px;
 }
 .icon3{
-    margin-left: 448px;
+    margin-left: 340px;
 }
 .icon4{
-    margin-left: 270px;
+    margin-left: 80px;
 }
 .icon5{
-    margin-left: 156px;
+    /* margin-left: 6px; */
 }
 
 
